@@ -1,0 +1,7 @@
+services:
+  - name: web
+    env:
+      - key: MONGODB_URI
+        value: "mongodb+srv://Admin:Admin2024@cluster0.3eotla8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    buildCommand: npm install
+    startCommand: npm start
